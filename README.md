@@ -18,3 +18,6 @@ check box86.org and winehq.org for more information.
 
 # winetricks doesnt work!
 you need to manually copy the script to $PREFIX/bin or symlink it.
+
+# Does it include virgl?
+It doesnt, you have to manually install and configure virgl(like making a file called 'zink' and making it start virgl zink in $PREFIX/bin)
